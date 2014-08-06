@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Plan]">
+  <parameter name="siteUr" value="http://www.dev.by/"/>
+  <parameter name="searchtextblo" value="dev.by"/>
+  <test name="dev_by Tests(failed)">
+    <parameter name="siteUr" value="http://www.dev.by/"/>
+    <parameter name="searchtextblo" value="dev.by"/>
+    <classes>
+      <class name="test.BlogsTest">
+        <methods>
+          <include name="after"/>
+          <include name="xTest"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- test.BlogsTest -->
+    </classes>
+  </test> <!-- dev_by Tests(failed) -->
+</suite> <!-- Failed suite [Test Plan] -->

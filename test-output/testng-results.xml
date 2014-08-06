@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[browser driver was constructed<br>]]>
+    </line>
+    <line>
+      <![CDATA[Browser 'firefox' ready...<br>]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[=====================  Test case: 'test.BlogsTest' =====================<br>]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'dev.by Main page' appears in 94msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'blogLink' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'dev.by Blogs page' appears in 1563msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Text Field 'searchBlogs' :: Typing 'null'<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'devByBlogLink' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 5 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[***********************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[***** Test case: 'test.BlogsTest' Passed! *****<br>]]>
+    </line>
+    <line>
+      <![CDATA[***********************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[driver.quit...<br>]]>
+    </line>
+    <line>
+      <![CDATA[killing processes<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Test Plan" duration-ms="51547" started-at="2014-08-04T12:39:07Z" finished-at="2014-08-04T12:39:59Z">
+    <groups>
+    </groups>
+    <test name="dev_by Tests" duration-ms="51547" started-at="2014-08-04T12:39:07Z" finished-at="2014-08-04T12:39:59Z">
+      <class name="test.BlogsTest">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.BlogsTest@19b49a5]" name="before" is-config="true" duration-ms="328" started-at="2014-08-04T15:39:07Z" finished-at="2014-08-04T15:39:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e1b41d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="xTest()[pri:0, instance:test.BlogsTest@19b49a5]" name="xTest" duration-ms="50969" started-at="2014-08-04T15:39:07Z" finished-at="2014-08-04T15:39:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[=====================  Test case: 'test.BlogsTest' =====================<br>]]>
+            </line>
+            <line>
+              <![CDATA[------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'dev.by Main page' appears in 94msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'blogLink' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'dev.by Blogs page' appears in 1563msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[Text Field 'searchBlogs' :: Typing 'null'<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'devByBlogLink' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 5 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[***********************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[***** Test case: 'test.BlogsTest' Passed! *****<br>]]>
+            </line>
+            <line>
+              <![CDATA[***********************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- xTest -->
+        <test-method status="PASS" signature="after()[pri:0, instance:test.BlogsTest@19b49a5]" name="after" is-config="true" duration-ms="218" started-at="2014-08-04T15:39:58Z" finished-at="2014-08-04T15:39:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[driver.quit...<br>]]>
+            </line>
+            <line>
+              <![CDATA[killing processes<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- test.BlogsTest -->
+    </test> <!-- dev_by Tests -->
+  </suite> <!-- Test Plan -->
+</testng-results>

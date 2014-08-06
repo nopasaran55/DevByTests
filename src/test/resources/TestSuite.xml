@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test Plan" verbose="1">
+	
+	<test name="dev_by Tests" preserve-order="true">
+	
+		<parameter name="siteUrl" value="http://www.dev.by/" />	
+		<parameter name="userNameSite" value="SebastianPereira" />	
+		<parameter name="passwordSite" value="12349876" />	
+		<parameter name="userEMailSite" value="sebastianpereira@mailcatch.com" />
+		<parameter name="searchtextblog" value="dev.by" />
+		<parameter name="searchtextcomp" value="itransition" />
+		<parameter name="searchtextvacan" value="qa" />
+		<parameter name="passwordReg" value="12349876" />
+		<parameter name="emailPostfix" value="@mailcatch.com" />
+		
+		<classes> 			
+ 			<class name="test.LoginTest"/>
+ 			<class name="test.BlogsTest"/>
+ 			<class name="test.CompanyTest"/>
+ 			<class name="test.SalaryTest"/>
+ 			<class name="test.EventTest"/>
+ 			<class name="test.WorkTest"/>
+ 			<class name="test.UserTest"/>
+ 			<class name="test.ForumTest"/>
+ 			<class name="test.LogoutTest"/>
+ 			<class name="test.RegistrationTest"/>	
+        </classes>
+        
+	</test>
+	
+</suite>
